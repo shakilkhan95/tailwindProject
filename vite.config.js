@@ -1,12 +1,12 @@
-// import { resolve } from "path";
-// import { build, defineConfig } from "vite";
+import { resolve } from "path";
+import { build, defineConfig } from "vite";
 
-// export default defineConfig(P{
-//     build: {
-//         rollupOptions: {
-//             input: {
-//                 main: resolve(__dirname, "index.html"),
-//             }
-//         }
-//     }
-// })
+export default defineConfig(P{
+    build: {
+        rollupOptions: {
+            input: {
+                main: resolve(__dirname, "index.html"),
+            }
+        }
+    }
+})
